@@ -26,7 +26,7 @@ import java.util.List;
 import java.util.Set;
 import java.util.stream.Collectors;
 
-@CrossOrigin(origins = "https://diploma-projects-front.onrender.com/", maxAge = 3600)
+@CrossOrigin(origins = "https://diploma-projects-front.onrender.com", maxAge = 3600)
 @RestController
 @RequestMapping("/api/auth")
 public class AuthController {
