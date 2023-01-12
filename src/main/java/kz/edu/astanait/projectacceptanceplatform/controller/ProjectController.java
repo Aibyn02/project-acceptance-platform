@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.*;
 import javax.validation.Valid;
 import java.util.List;
 
-@CrossOrigin(origins = "diploma-projects.up.railway.app/", maxAge = 3600)
+@CrossOrigin(origins = "https://diploma-projects-front.onrender.com//", maxAge = 3600)
 @RestController
 @RequestMapping("/api/test/project")
 public class ProjectController {
